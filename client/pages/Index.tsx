@@ -280,13 +280,13 @@ export default function Home() {
       </section>
 
       {/* Clients Section */}
-      <section className="py-20 md:py-28 bg-slate-50">
+      <section className="py-24 md:py-40 bg-gradient-to-b from-slate-50 to-white">
         <div className="container mx-auto px-6">
-          <h2 className="text-h2 text-primary text-center mb-16 font-bold">
+          <h2 className="text-h2 text-primary text-center mb-16 font-black">
             Trusted by Leading Organizations
           </h2>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 mb-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 mb-12">
             {[
               "ARY News",
               "Rousch Pakistan",
@@ -305,16 +305,16 @@ export default function Home() {
             ].map((client) => (
               <div
                 key={client}
-                className="bg-white p-6 rounded-lg border border-border flex items-center justify-center text-center hover:shadow-md transition-shadow"
+                className="bg-white p-6 rounded-xl border border-border flex items-center justify-center text-center hover:shadow-lg transition-shadow duration-300"
               >
-                <p className="font-semibold text-foreground text-sm">
+                <p className="font-black text-foreground text-sm">
                   {client}
                 </p>
               </div>
             ))}
           </div>
 
-          <p className="text-center text-muted-foreground text-lg">
+          <p className="text-center text-muted-foreground text-xl font-semibold">
             Join our growing list of satisfied clients across government,
             banking, media, and corporate sectors
           </p>
