@@ -415,7 +415,14 @@ export default function Home() {
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
             <div>
-              <h4 className="font-black text-2xl mb-4">Eagle Security</h4>
+              <div className="flex items-center gap-3 mb-6">
+                <img
+                  src="https://i.ibb.co/s954vR34/eaglesecurityoriginallogo-1-copy.png"
+                  alt="Eagle Security Guards Logo"
+                  className="h-12 w-12"
+                />
+                <h4 className="font-black text-2xl">Eagle Security</h4>
+              </div>
               <p className="text-base font-bold opacity-80 leading-relaxed">
                 Professional security services since 1992, protecting businesses
                 and individuals across Pakistan.
