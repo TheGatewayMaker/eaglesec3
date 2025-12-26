@@ -104,19 +104,27 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-semibold;
   }
 
   h1 {
-    @apply text-h1 font-bold;
+    @apply text-h1 font-black tracking-tight;
   }
 
   h2 {
-    @apply text-h2 font-bold;
+    @apply text-h2 font-black tracking-tight;
   }
 
   h3 {
-    @apply text-h3 font-bold;
+    @apply text-h3 font-bold tracking-tight;
+  }
+
+  h4, h5, h6 {
+    @apply font-bold tracking-tight;
+  }
+
+  p {
+    @apply font-semibold;
   }
 
   :where(p, span, li, h1, h2, h3, h4, h5, h6, a, button, label, td, th) {
