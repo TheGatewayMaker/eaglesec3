@@ -63,26 +63,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Value Proposition Section */}
-      <section className="bg-gradient-to-r from-primary to-primary text-primary-foreground py-32 md:py-48">
-        <div className="container mx-auto px-6">
-          <div className="max-w-4xl">
-            <p className="text-4xl md:text-5xl font-black leading-relaxed mb-10">
-              We believe that in a world where security has become critical, a
-              personalized approach is key to ensuring you get the protection
-              you deserve.
-            </p>
-            <p className="text-lg md:text-2xl font-bold opacity-90 leading-relaxed">
-              From static guards and elite bodyguards to mobile escorts and
-              advanced security equipment, we provide comprehensive, tailored
-              solutions for every security need.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* Services Overview - Color Blocked */}
-      <section className="py-28 md:py-40 bg-white">
+      <section className="py-28 md:py-40 bg-slate-50">
         <div className="container mx-auto px-6">
           {/* Section Title with Visual Styling */}
           <div className="mb-20">
