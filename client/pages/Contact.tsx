@@ -220,30 +220,30 @@ export default function Contact() {
       </section>
 
       {/* Office Locations */}
-      <section className="py-20 md:py-28 bg-slate-50">
+      <section className="py-20 md:py-28 bg-white">
         <div className="container mx-auto px-6">
-          <h2 className="text-h2 text-primary text-center mb-16 font-bold">
+          <h2 className="text-4xl font-black text-slate-900 text-center mb-16">
             Our Locations
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Head Office */}
-            <div className="bg-white p-8 rounded-lg border border-border">
-              <h3 className="text-h3 font-bold text-primary mb-4">
+            <div className="bg-gradient-to-br from-white to-slate-50 p-10 rounded-xl border-2 border-slate-200 shadow-md hover:shadow-lg hover:border-accent transition-all duration-300">
+              <h3 className="text-2xl font-black text-slate-900 mb-6">
                 Head Office
               </h3>
-              <p className="font-semibold text-foreground mb-1">Islamabad</p>
-              <p className="text-muted-foreground text-sm mb-4">
+              <p className="font-black text-slate-900 mb-2">Islamabad</p>
+              <p className="text-slate-600 font-bold">
                 Central coordination and management
               </p>
             </div>
 
             {/* Regional Offices */}
-            <div className="bg-white p-8 rounded-lg border border-border">
-              <h3 className="text-h3 font-bold text-primary mb-4">
+            <div className="bg-gradient-to-br from-white to-slate-50 p-10 rounded-xl border-2 border-slate-200 shadow-md hover:shadow-lg hover:border-accent transition-all duration-300">
+              <h3 className="text-2xl font-black text-slate-900 mb-6">
                 Regional Offices
               </h3>
-              <ul className="space-y-2 text-foreground text-sm">
+              <ul className="space-y-3 text-slate-700 font-bold">
                 <li>• South (Multan)</li>
                 <li>• Lahore</li>
                 <li>• Karachi</li>
@@ -253,11 +253,11 @@ export default function Contact() {
             </div>
 
             {/* Area & Sub Offices */}
-            <div className="bg-white p-8 rounded-lg border border-border">
-              <h3 className="text-h3 font-bold text-primary mb-4">
+            <div className="bg-gradient-to-br from-white to-slate-50 p-10 rounded-xl border-2 border-slate-200 shadow-md hover:shadow-lg hover:border-accent transition-all duration-300">
+              <h3 className="text-2xl font-black text-slate-900 mb-6">
                 Area & Sub Offices
               </h3>
-              <ul className="space-y-2 text-foreground text-sm">
+              <ul className="space-y-3 text-slate-700 font-bold">
                 <li>• Sargodha • Peshawar</li>
                 <li>• Mirpur • Sialkot</li>
                 <li>• Sheikhupura • Chakwal</li>
