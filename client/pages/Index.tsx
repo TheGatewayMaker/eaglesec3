@@ -247,9 +247,9 @@ export default function Home() {
             ].map((item, i) => (
               <div
                 key={i}
-                className="bg-slate-50 border-2 border-border p-10 rounded-2xl hover:shadow-lg transition-all"
+                className="bg-slate-50 border-2 border-border p-10 rounded-2xl hover:shadow-2xl hover:border-accent hover:-translate-y-2 transition-all duration-300"
               >
-                <item.icon className="w-12 h-12 text-accent mb-6" />
+                <item.icon className="w-12 h-12 text-accent mb-6 transition-transform duration-300 group-hover:scale-110" />
                 <h3 className="text-2xl font-black text-primary mb-4">
                   {item.title}
                 </h3>
